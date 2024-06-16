@@ -1,0 +1,45 @@
+
+.outer-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ecfdf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d1fadf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .check-icon {
+    color: green; /* Change color as needed */
+    font-size: 16px;
+  }
+  
+  .outer-exc {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fffaeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-exc {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fef0c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 

@@ -1,0 +1,101 @@
+
+ ul {
+  margin-block-start: 0;
+}
+
+ .ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected {
+  background-color: #2a3958;
+  /* border: 4px solid #2a3958; */
+  color: white;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected:hover{
+  background-color: #2a3958;
+  color: white;
+
+}
+.ant-menu-overflow-item{
+  border-radius: 0px;
+
+}
+
+
+ .css-3rel02.ant-menu .ant-menu-item {
+  background-color: #2a3958;
+  color: white;
+  border-radius: 0px;
+} 
+
+ .css-3rel02 .ant-divider-horizontal {
+  margin: 16px 0;
+}
+ 
+.ant-menu-light .ant-menu-item-selected,
+.ant-menu-light .ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-light .ant-menu-horizontal > .ant-menu-submenu-selected,
+.ant-menu-light .ant-menu-horizontal > .ant-menu-submenu-selected {
+  background-color: #2a3958;
+  color: white;
+  justify-content: center;
+  align-self: center;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected::after 
+.ant-menu-horizontal > .ant-menu-item-active::after,
+.ant-menu-horizontal > .ant-menu-item-selected::after {
+  width: 0 !important;
+}
+
+.ant-layout-header {
+  line-height: 40px !important;
+}
+.ant-layout-header{
+  line-height: 40px;
+}
+.ant-layout-header .ant-menu{
+  line-height: 40px;
+}
+.ant-divider-horizontal {
+  margin: 16px 0;
+}
+
+.ant-btn-default {
+  font-size: 16px;
+   border-color: #d9d9d9;
+}
+ 
+ .ant-dropdown-open {
+  border: 1px solid #d9d9d9;
+}
+
+ .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: black;
+  border-color: #d9d9d9;
+}
+
+ .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover 
+.ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: #2a3958;
+  border-color: #2a3958;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after{
+  border: none;
+}
+ .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #2a3958;
+  border-color: #2a3958;
+}
+
+ .ant-checkbox-indeterminate .ant-checkbox-inner:after {
+  background-color: #2a3958;
+}
+
+ .ant-table-selection-column.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #2a3958;
+}
+
+.ant-table-thead{
+  background-color: #EEF0F4;
+}
+.ant-table-tbody{
+  background-color: white;
+}

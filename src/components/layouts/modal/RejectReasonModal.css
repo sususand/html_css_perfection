@@ -1,0 +1,18 @@
+/* .ant-form-item */
+.ant-form-item {
+    margin: 0;
+    border-bottom: 1px solid white;
+  }
+   
+  /* .ant-form-horizontal .ant-form-item-label */
+  .ant-form-horizontal .ant-form-item-label {
+    align-self: center;
+  }
+  
+  /* .ant-modal .ant-modal-footer */
+  .ant-modal .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+  }
+  

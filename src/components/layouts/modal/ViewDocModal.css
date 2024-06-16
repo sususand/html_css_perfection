@@ -1,0 +1,16 @@
+.ant-col .col-view-doc {
+    height: 350px;
+    margin-bottom: 4px;
+    border: 1px solid #b1b4bb;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #fafafa;
+  }
+  
+   .ant-form-horizontal .ant-form-item-control .view-doc-container {
+    overflow-y: scroll;
+    height: 400px;
+  }
+  

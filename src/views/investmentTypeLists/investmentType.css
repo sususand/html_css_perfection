@@ -1,0 +1,55 @@
+
+/* Disable scrollbar in IE */
+* {
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar in WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .ant-form-item */
+.ant-form-item {
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+
+/* .ant-form */
+.ant-form {
+  border: 1px solid #d7d8da;
+ }
+
+ .ant-form-item .ant-form-item-control-input {
+  background-color: white;
+  padding: 8px;
+   border-bottom: 1px solid #d7d8da;
+}
+
+  .ant-form-item .ant-form-item-label > label {
+  margin-left: 16px;
+ }
+  
+ 
+  .ant-form-horizontal .ant-form-item-label {
+  align-self: center;
+}
+
+ .ant-modal .ant-modal-footer {
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+ .ant-table-tbody > tr > td {
+  margin: 4px;
+}
+
+/* .even-row */
+.even-row {
+  background-color: #f9f9fb; /* Light gray background color for even rows */
+}
+
+  .ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected > .ant-table-cell {
+  background-color: #d5dded;
+}

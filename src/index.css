@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('./common/fonts/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('./common/fonts/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('./common/fonts/Pretendard-Light.woff') format('woff');
+}
+
+body, html {
+  margin: 0px;
+  font-family: 'Pretendard-Regular', sans-serif; /* Replace sans-serif with a backup font */
+}
+
+/* Optionally, apply to specific elements as needed */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pretendard-Regular', sans-serif;
+}
+
+p, span,u,li, div {
+  font-family: 'Pretendard-Regular', sans-serif;
+}
+
+/* Apply to Ant Design components if necessary */
+.ant-form, .ant-modal,.ant-pagination,.ant-pagination-item, .ant-btn {
+  font-family: 'Pretendard-Regular', sans-serif;
+}
+
+/* Apply to specific class names */
+.custom-class-name {
+  font-family: 'Pretendard-Regular', sans-serif;
+}
